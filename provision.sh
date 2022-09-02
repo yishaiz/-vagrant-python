@@ -15,5 +15,11 @@ pip3 install virtualenv
 # virtualenv testenv
 # source testenv/bin/activate
 
+# !!!
+#  pip3 install pipenv
+# pipenv shell
+# pipenv install flask==1.1.2
+
+
 
 
