@@ -6,7 +6,8 @@ Vagrant.configure("2") do |config|
    config.vm.network "forwarded_port", guest: 5000, host: 5678, id: "flask-test"
    config.vm.network "forwarded_port", guest: 3000, host: 3030, id: "web"
    
-   config.vm.provision "shell", path: "provision.sh"
+   config.vm.provision "shell", path: "provision-pytohh.sh"
+   config.vm.provision "shell", path: "provision-node.sh"
    
    config.vm.provider "virtualbox" do |vb|
     # Display the VirtualBox GUI when booting the machine

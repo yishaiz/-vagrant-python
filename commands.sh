@@ -11,6 +11,9 @@ source venv/bin/activate
 pip install flask==1.1.2
 
 
+# helpers
+
+cp -r /vagrant/app/ .  
 
 
 

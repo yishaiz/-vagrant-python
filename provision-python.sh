@@ -10,6 +10,9 @@ apt install python3-pip -y
 
 pip3 install virtualenv
 
+python3 -V # verify installed
+sudo apt install python3-venv -y
+
 # to create a new virtual env
 # commands :
 # virtualenv testenv
